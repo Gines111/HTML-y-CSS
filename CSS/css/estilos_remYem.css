@@ -1,0 +1,20 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 20px; */
+}
+
+h1{
+    font-size: 3em;
+}
+
+
+
+p{
+    font-size: 1em;
+}
+
+.caja1{
+    border: 1px solid black;
+    width: 40em;
+}
+

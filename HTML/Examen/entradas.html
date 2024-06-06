@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario entradas</title>
+    <style>
+        body{
+            background-color: azure;
+        }
+        p{
+            border:  solid black; 
+            background-color: white; 
+        }
+        fieldset{
+            border: none;
+            
+        }
+        .formulario_1{
+            background-color: lightblue;
+            margin-right: 1250px ;
+        }
+        .formulario_2{
+            background-color: aqua;
+            margin-right: 1250px ;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Formulario de reserva de entradas</h1>
+    <form action="" method="post">
+        <fieldset class="formulario_1">
+            <legend>
+                <p>Datos de usuario</p>
+            </legend>
+            <table>
+            <tr>
+                <td><label for="Nombre">Nombre:</label><input type="text" size="25" maxlength="30" required></td>
+            </tr>
+            <tr>
+                <td><label for="Nombre">Apellidos:</label><input type="text" size="25" maxlength="30" required></td>
+            </tr>
+            <tr>
+                <td><label for="Nombre">DNI:</label><input type="password" size="10" required pattern="[0-9]{8}[A-Za-z]{1}" title="Debe poner 8 números y una letra" minlength="9" maxlength="9" /></td>
+            </tr>
+            <tr>
+                <td> <label for="Registro">Usuario registrado</label> <input type="radio" name="Registro"> Sí
+                <label for="Registro"></label> <input type="radio" name="Registro" checked > No</td>
+            </tr>    
+            </table>
+        </fieldset>
+    
+
+
+    <fieldset class="formulario_2">
+        <legend>
+            <p>Selección de entradas</p>
+        </legend>   
+        <table>
+            <tr>
+                <td> <label for="evento">Tipo de evento: </label><select name="evento" id="evento">
+                    <option value=""> Baloncesto</option>
+                    <option value=""> Waterpolo</option>
+                    <option value=""> Balonmano</option>
+                    <option value=""> Taekwondo</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="fecha">Fecha:</label><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label for="comentarios">Comentarios: </label> <textarea name=comentarios” cols=“30” rows=“3”></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="corre">¿Enviar correo de confirmación?</label><input type="checkbox" checked></td>
+            </tr>
+        </table>    
+    </fieldset>
+    <button type="submit">Comprar</button>
+    <button type="reset">Borrar</button>
+</form>
+<a href="index.html">Atrás</a>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

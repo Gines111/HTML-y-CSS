@@ -1,0 +1,24 @@
+body{
+    background-color: cadetblue;
+    margin: 0 auto;
+    width: 800px;
+}
+h1,h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: impact;
+}
+p{
+    font-family: Cambria;
+    /* text-transform: uppercase; */
+    font-variant: small-caps;
+    line-height: 2;
+    text-indent: 25px;
+    font-size: 20px;
+    
+
+}
+span{
+    font-style: italic;
+    text-decoration: underline;
+}

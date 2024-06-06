@@ -1,0 +1,15 @@
+/* Esto es una hoja de estilos externa */
+/* Cada partado es una regla de estilo */
+/* Cada cosa amarilla es un selector */
+h1{
+    color: brown; 
+    font-style: oblique; 
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    color: darkslateblue;
+}
+ul{
+    list-style-type: square;
+}

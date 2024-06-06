@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tres en raya</title>
+    <style>
+        
+        
+        
+        .juego ,td{
+            border: 1px solid black;
+            background-color: lemonchiffon;
+        }
+       
+       table{
+        margin: auto;
+       }
+       .fyc td{
+            border: none;
+            text-align: left;
+            
+       }
+       .fyc{
+        background-color: lemonchiffon;
+       }
+       .pagina{
+        margin: auto;
+        width: 400px;
+        padding: 10px;
+        background-color: palegreen;
+        text-align: center;
+       }
+       a{
+        text-decoration: none;
+        color: black;
+       }
+       a:hover{
+        color: white;
+       }
+       td{
+        text-align: left;
+       }
+       
+    </style>
+</head>
+<body>
+    <div class="pagina"> 
+    <h1>TRES EN RAYA</h1>
+    <h2> Juego oficial del <u><a href="https://ciclos.iesruizgijon.es/course/view.php?id=111" target="_blank">curso</a></u></h2>
+    <table class="juego">
+        <tr>
+            <td></td>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><img src="img/cancel.png" alt="cancel"></td>
+            <td></td>
+            <td><img src="img/cancel.png" alt="cancel"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td></td>
+            <td><img src="img/ok.png" alt=""></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><img src="img/ok.png" alt=""></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <p>Turno para jugador 1</p>
+    <form action="">
+    <table class="fyc">
+        <tr>
+            <td><label for="fila"> Fila</label></td>
+            <td><input type="text" id="fila" size="1"required maxlength="1" pattern="[1-3]"></td>
+        </tr>
+        <tr>
+            <td><label for="columna"> Columna</label></td>
+            <td><input type="text" id="columna"size="1" required maxlength="1" pattern="[A-Ca-c]"></td>
+        </tr>
+    </table>
+
+    
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+
+    </form>
+    </div>
+    <!-- table>tr*4>td*4        CREA UNA TABLA DE ESAS DIMENSIONES -->
+</body>
+</html>

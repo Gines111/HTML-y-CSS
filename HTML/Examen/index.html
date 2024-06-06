@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        h1,h2{
+            font-family: Arial, Helvetica, sans-serif;
+            color: blue;
+        }
+        h3{
+            color: black;
+            text-decoration: underline black;
+        }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        } 
+        .enlaces{
+            text-align: center;
+        }
+        .indice{
+            background-color: lightblue;
+        }
+        .introduccion{
+            background-color: lightyellow;
+        }
+        .tipos_olimpiadas{
+            background-color: lightgrey;
+            
+        }
+        .ultimas_olimpiadas{
+            background-color:lightgreen ;
+        }
+        .proximas_olimpiadas{
+            background-color: lightcoral;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="indice">
+    <h1>Las Olimpiadas</h1>
+    <img class="anillos" src="img/anillos.jpg" alt="anillos">
+    <div class="enlaces">
+    <a href="index.html">Inicio</a>
+    <a href="deportes.html">Deportes</a>
+    <a href="entradas.html">Entradas</a>
+    </div>
+
+    <h2>Índice</h2>
+    <a href="#introduccion">Introducción</a><br>
+    <a href="#tipos de olimpiadas">Tipos de Olimpiadas</a><br>
+    <a href="#ultimas olimpiadas">Últimas Olimpiadas</a><br>
+    <a href="#proximas olimpiadas">Próximas Olimpiadas</a><br>
+    <hr>
+    </div>  
+    
+    <div class="introduccion">
+    <h3 id="introducción">Introducción</h3>
+    <p>Las primeras Olimpiadas modernas tuvieron lugar en Atenas en 1896</p>
+    <p>Tienen lugar <b>cada 48 meses</b> en un país de uno de los Continentes</p>
+    <img src="img/grecia.jpg" alt="Atenas 1896" >
+    </div>
+    <hr>
+
+    <div class="tipos_olimpiadas">
+    <h3 id="tipos de olimpiadas">Tipos de Olimpiadas</h3>
+    <dl>
+        <dt>De verano</dt>
+            <dd>Tienen lugar en verano y se practican deportes tanto al aire libre como en pista.</dd>
+        <dt>De invierno</dt>
+            <dd>Tienen lugar en invierno y se practican deportes como esquí, patinaje, saltos, ...</dd>
+        <dt>Paraolimpiadas</dt>
+            <dd>Los deportistas tienen algún tipo de discapacidad.</dd>
+    </dl>
+    </div>
+    <hr>
+
+
+    <div class="ultimas_olimpiadas">
+    <h3 id="ultimas olimpiadas">Últimas Olimpiadas</h3>
+    <ol>
+        <li>De invierno:</li>
+            <ul style="list-style-type: circle;">
+                <li>Vancouver 2010 (Canadá)</li>
+                <li>Sochi 2014 (Rusia)</li>
+                <li>Pyeongchang 2018 (China)</li>
+                <li>Pekín 2022 (China)</li>
+            </ul>
+        <li>De verano:</li>
+        <ul style="list-style-type: disc ;">
+            <li>Rio de Janeiro 2016 (Brasil)</li>
+            <li>Tokyo 2020 (Japón)</li>
+            <li>Paris (Francia)</li>
+            <li>Los Ángeles 2028 (EEUU)</li>
+        </ul>
+    </ol>
+    </div>
+    <hr>
+
+    <div class="proximas_olimpiadas">
+    <h3 id="proximas olimpiadas">Próximas Olimpiadas</h3>
+    <p>Las próximas Olimpiadas se van a celebrar en París, del <b>26 de julio al 11 de agosto de 2024.</b></p>
+    <p>Enlace a la página oficial (haz clic en la imagen):</p>
+    <a href="https://olympics.com/es/paris-2024" title="Página de las olimpiadas" target="_blank" >
+        <img class="logo" src="img/logo.png" alt="logo París 2024">
+    </a>
+    </div>
+</body>
+</html>

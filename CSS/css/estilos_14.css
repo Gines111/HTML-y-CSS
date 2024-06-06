@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(to right, #e1eec3, #f05053 );
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+.columns{
+   
+    column-width: 160px;
+}
+
+.threecolumns{
+    column-count: 3;
+    column-gap: 2em;
+    column-rule: 1px dotted yellow;
+}

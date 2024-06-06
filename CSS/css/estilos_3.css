@@ -1,0 +1,37 @@
+:root{
+    --color_PE: #6F732F;
+    --color_PD: rgb(219, 22, 47);
+    --color_P: #15616D;
+    --color_H1_2: #001524;
+
+    --f_PD: 'Homemade Apple';
+    --f_PE: 'bebas neue';
+
+    --s_PD: 18px;
+    --s_PE: 14px;
+}
+.parrafo_destacado{
+    font-size: var(--s_PD);
+    font-style: italic;
+    color: var(--color_PD);
+    font-family: var(--f_PD);
+}
+
+.parrafo_estandar{
+    font-size: var(--s_PE);
+    color: var(--color_PE);
+    font-family: var(--f_PE);
+}
+p{
+    color: var(--color_P);
+    
+}
+
+h1, h2{
+    color: var(--color_H1_2);
+}
+
+@font-face {
+    font-family: 'bebas neue' ;
+    src: url(../Bebas_Neue/BebasNeue-Regular.ttf);
+}

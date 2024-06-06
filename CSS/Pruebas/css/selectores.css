@@ -1,0 +1,61 @@
+/* Selectores simples */
+h1{
+    color: darkblue;
+}
+
+h1,h2,h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkmagenta;
+}
+
+/* Selector universal */
+* {
+    color: darkred;
+}
+
+/* Selectores combinadores */
+/* Establecer un tamaño de fuente de 20px a todos los parrafos que esten dentro de una etiqueta section */
+
+section p{
+    color: coral;
+    font-size: 20px;
+    text-decoration: overline;
+}
+
+/* Selector hijo directo */
+footer > p{
+    font-size: 30px;
+}
+
+/* selector descendiente ( a cualqueir nivel) */
+footer p {
+    font-size: 30px;
+}
+
+
+/* Ej: poner un borde de 2px punteado de color negro solo al section que aparece despues del main */
+main + section{
+    border: dotted black 2px;
+}
+
+/* Ej: poner un fondo gris claro a todos los elementos siguientes a main que esten al mismo nivel  */
+main ~ *{
+    background-color: lightgray
+}
+
+/* Selectores por atributos */
+img[alt]{
+    border: 5px solid darkblue;
+    
+    height: 300px;
+}
+
+img[alt^=cielo]{
+    border-radius: 50%;
+}
+
+img[alt~="estrellas"]{
+    width: 300px;
+}
+    
+
