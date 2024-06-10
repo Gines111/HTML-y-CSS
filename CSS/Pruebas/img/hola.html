@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Nombre</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#nombre">Nombre</a></li>
+            <li><a href="#aficiones">Aficiones</a></li>
+            <li><a href="#enlaces">Enlaces</a></li>
+            <li><a href="#fotos">Fotos</a></li>
+            <li><a href="#redes-sociales">Redes Sociales</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="nombre">
+            <h2>Nombre</h2>
+            <p>Hola, me llamo <span>Juan Pérez</span>.</p>
+        </section>
+        <section id="aficiones">
+            <h2>Aficiones</h2>
+            <p>Mis aficiones son:</p>
+            <ul>
+                <li>Leer</li>
+                <li>Viajar</li>
+                <li>Programar</li>
+            </ul>
+        </section>
+        <section id="enlaces">
+            <h2>Enlaces</h2>
+            <p>Algunas páginas que me gustan:</p>
+            <ul>
+                <li><a href="https://www.example.com" target="_blank">Example</a></li>
+                <li><a href="https://www.example2.com" target="_blank">Example2</a></li>
+                <li><a href="https://www.example3.com" target="_blank">Example3</a></li>
+            </ul>
+        </section>
+        <section id="fotos">
+            <h2>Fotos</h2>
+            <figure>
+                <img src="https://via.placeholder.com/150" alt="Foto 1">
+                <figcaption>Foto 1</figcaption>
+            </figure>
+            <figure>
+                <img src="https://via.placeholder.com/150" alt="Foto 2">
+                <figcaption>Foto 2</figcaption>
+            </figure>
+        </section>
+        <section id="redes-sociales">
+            <h2>Redes Sociales</h2>
+            <p>Sígueme en:</p>
+            <a href="https://twitter.com/tu_usuario" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="https://facebook.com/tu_usuario" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre y Apellidos:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Derechos reservados &copy; 2024</p>
+    </footer>
+</body>
+</html>
