@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #444;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: center;
+    color: #555;
+}
+
+#nombre span {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.aficiones-list {
+    list-style: square;
+    padding-left: 2em;
+}
+
+#aficiones {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#aficiones ul {
+    width: 50%;
+}
+
+#aficiones ul li {
+    margin: 0.5em 0;
+}
+
+#enlaces ul {
+    text-align: center;
+    padding: 0;
+}
+
+#enlaces ul li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+#redes-sociales a {
+    display: inline-block;
+    margin: 0.5em;
+    color: #333;
+    font-size: 1.5em;
+    text-decoration: none;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em 0;
+}
+
+form label {
+    margin: 0.5em 0;
+}
+
+form input[type="text"], form input[type="email"] {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 80%;
+    max-width: 400px;
+}
+
+form input[type="submit"] {
+    padding: 0.5em 2em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: auto;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #aficiones ul {
+        width: 90%;
+    }
+
+    #enlaces ul {
+        padding: 0;
+    }
+
+    #enlaces ul li {
+        display: block;
+        margin: 1em 0;
+    }
+}
+
+
+
+.card{
+    box-sizing: border-box;
+    width: 350px;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 5px 4px 10px 1px gray;
+  }
