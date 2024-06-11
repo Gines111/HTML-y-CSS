@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Reddit Mono";
+  src: url(../fonts/Reddit_Mono/static/RedditMono-Medium.ttf);
+}
+
+:root {
+  --rojo: #b80c09;
+  --negro: #201e1f;
+  --verde: #04a777;
+  --amarillo: #f5b700;
+}
+
+* {
+  margin: 5px 0;
+  padding: 0;
+  font-family: "Reddit Mono";
+}
+
+h1 {
+  color: var(--verde);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+span {
+  color: var(--amarillo);
+}
+
+/* Menu Superior */
+
+.navbar {
+  display: flex;
+  background-color: var(--rojo);
+  align-items: center;
+  flex-direction: column;
+}
+
+.navbar h1,
+a {
+  color: white;
+}
+
+.logo {
+  margin-left: 30px;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+/* Intro y Aficiones */
+
+.main {
+  margin: 30px;
+  text-align: justify;
+  color: var(--negro);
+}
+
+.aficiones {
+  margin-top: 20px;
+}
+
+.enlaces li {
+  margin-left: 20px;
+}
+
+.enlaces a {
+  color: var(--parrafos);
+}
+
+.enlaces a:hover {
+  color: black;
+}
+
+.imagenes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fotos a{
+    color: black;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    flex-direction: row;
+  }
+
+  .nav {
+    margin-left: auto;
+    margin-right: 10px;
+  }
+
+  .imagenes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  
+}
